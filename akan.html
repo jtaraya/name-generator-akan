@@ -48,29 +48,30 @@
     <p>
       To generate Akan names, input year, month and date then select gender.
       <p>
-        <label for="cenury-of-birth">
-            Year:
-            <input id="century-input" type="number" name="century-of-birth" placeholder="CC" value="" required>
+        <form class="akanform" onsubmit="return akanName()">
+        <label for="century-of-birth">
+        Century:
+        <input id="century-input" type="number" name="century-of-birth" placeholder="CC" value="" required>
         <label for="year-of-birth">
         Year:
         <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
-      </label>
-      <label for="month-of-birth">
+        </label>
+        <label for="month-of-birth">
         Month:
         <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
-      </label>
-      <label for="day-of-birth">
+        </label>
+        <label for="day-of-birth">
         Date:
         <input id="date-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
-      </label>
+        </label>
     </p>
     </p>
 
     <label for="gender">
         <p>Gender Selection: </p>
-        Male
+        <br>Male
         <input id="male-input" type="radio" name="gender" value="male" required>
-        Female
+        <br>Female
         <input id="female-input" type="radio" name="gender" value="female" required>
       </label>
       <p>Click Submit button.</p>
