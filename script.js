@@ -64,5 +64,16 @@ function akanName () {
                 "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"
               ];
             
+        //generating and index value to select items on arrays
+    const index;
+    // fix formula bug
+    if (dayOfWeekNumber == 0){
+      index = 6;
+    } else {
+      index = dayOfWeekNumber - 1;
+    }
+  
+    console.log(index);
+            
     }
 }
