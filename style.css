@@ -1,32 +1,41 @@
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url('./ghanaflag.jpg');
-    background-size: cover;
-    color: white;
-    font-size: large;
-    font-weight: normal;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-image: url("./ghanaflag.jpg");
+  background-size: cover;
+  color: white;
+  font-size: large;
+  font-weight: normal;
 }
 
 #year-input {
-    border-radius: 50px;
-    width: 150px;
-    height: 30px;
+  border-radius: 50px;
+  width: 150px;
+  height: 30px;
+  color: cyan;
 }
 #month-input {
-    border-radius: 50px;
-    width: 150px;
-    height: 30px;
+  border-radius: 50px;
+  width: 150px;
+  height: 30px;
+  color: cyan;
 }
 #date-input {
-    border-radius: 50px;
-    width: 150px;
-    height: 30px;
+  border-radius: 50px;
+  width: 150px;
+  height: 30px;
+  color: cyan;
 }
 #generate-name {
-    background-color: aquamarine;
-    border-radius: 100px;
-    width: 200px;
-    height: 50px;
-    font-size: larger;
+  background-color: aquamarine;
+  border-radius: 100px;
+  width: 200px;
+  height: 50px;
+  font-size: larger;
+}
 
+#outcome {
+  text-align: center;
+  font-size: large;
+  font-style: italic;
+  border: solid 1px white;
 }
