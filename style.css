@@ -39,3 +39,9 @@ body {
   font-style: italic;
   border: solid 1px white;
 }
+
+#footer {
+    clear: both;
+    padding: 10px;
+    color: white;
+    text-align: right;
