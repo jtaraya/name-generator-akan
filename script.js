@@ -1,9 +1,9 @@
 function akanName () {
-    var centuryOfBirth = document.getElementById("century-input").value;
-    var yearOfBirth = document.getElementById("year-input").value;
-    var monthOfBirth = document.getElementById("month-input").value;
-    var dateOfBirth = document.getElementById("date-input").value;
-    var gender = document.getElementsByName("gender");
+    const centuryOfBirth = document.getElementById("century-input").value;
+    const yearOfBirth = document.getElementById("year-input").value;
+    const monthOfBirth = document.getElementById("month-input").value;
+    const dateOfBirth = document.getElementById("date-input").value;
+    const gender = document.getElementsByName("gender");
 
     function takegender () {
         for (var gender of genders ) {
@@ -79,7 +79,7 @@ function akanName () {
 
     if (myGenderValue == "male" && monthValid && dateValid) {
         document.getElementById('outcome').textContent = "You were born on a " + datesOfWeek[index] + " , your Akan name is " + maleAkanNames[index];
-        document.getElementById('display-name').textContent = "Here is your Akan name: ";
+        document.getElementById('display-name').textContent = "Your Akan name: ";
         document.getElementById('outcome').style.fontSize = "30px";
         document.querySelector('h1').textContent = "Hi" + " " + maleAkanNames[index];
         return false;
