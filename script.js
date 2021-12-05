@@ -23,4 +23,23 @@ function akanName () {
             return true;
         }
     }
+
+    function dayValidator() {
+        function dayValidator () {
+            if (monthOfBirth === 2 && Number(yearOfBirth)%4 === 0) {
+              if (dayOfBirth > 28 || dayOfBirth < 1) {
+                return false;
+              } else if (monthOfBirth === 2 && dayOfBirth > 29) {
+                return false;
+              } else if (monthOfBirth === 2 && dayOfBirth < 1) {
+                return false;
+              } else {
+                return true;
+              }
+            } else if (dayOfBirth < 1 || dayOfBirth > 31){
+              return false;
+            } else {
+              return true;
+            }
+    }
 }
