@@ -9,7 +9,7 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 * Windows /Ubuntu or Apple computer requeired
 * Install any browser
 * Ensure you have a working internet connection
-* Open link https://jtaraya.github.io/my-second-website/ on the browser
+* Open link https://jtaraya.github.io/name-generator-akan/ on the browser
 * github account
 * open index.html
 ## Known Bugs
