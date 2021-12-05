@@ -11,26 +11,26 @@ body {
     border-radius: 50px;
     width: 150px;
     height: 30px;
-    color: cyan;
+    color: black;
   }
 
 #year-input {
   border-radius: 50px;
   width: 150px;
   height: 30px;
-  color: cyan;
+  color: black;
 }
 #month-input {
   border-radius: 50px;
   width: 150px;
   height: 30px;
-  color: cyan;
+  color: black;
 }
 #date-input {
   border-radius: 50px;
   width: 150px;
   height: 30px;
-  color: cyan;
+  color: black;
 }
 #submit-name {
   background-color: aquamarine;
