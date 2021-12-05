@@ -12,5 +12,7 @@ function akanName () {
             }
         }
     }
-
+    //getting gender value
+    var myGenderValue = getGender();
+    console.log(myGenderValue)
 }
